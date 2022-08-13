@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0px 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b2b2b;
+}
+
+.row{
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    margin-bottom: 20px;
+    max-width: 300px;
+}
+
+.status{
+    line-height: 24px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.danger{
+    background-color: rgb(199, 42, 42);
+}
+
+.success{
+    background-color: #27ae60;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.pannel{
+    border: 1.5px solid #414142;
+    border-radius: 4px;
+    padding: 15px;
+    color: #dbd9d9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.l{
+    flex-direction: column;
+    justify-content: start !important; 
+}
+
+#myChart{
+    height: 150px !important;
+}
+
+.number{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
